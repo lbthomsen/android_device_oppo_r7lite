@@ -1,3 +1,3 @@
-Copyright 2015 - The CyanogenMod Project
+Copyright 2015 Lars Boegild Thomsen
 
-Device configuration for Oppo R7 Plus.
+Device configuration for Oppo R7 Lite.

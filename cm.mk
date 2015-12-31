@@ -18,20 +18,20 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-$(call inherit-product, device/oppo/r7plus/device.mk)
+$(call inherit-product, device/oppo/r7lite/device.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_r7plus
-PRODUCT_DEVICE := r7plus
+PRODUCT_NAME := cm_r7lite
+PRODUCT_DEVICE := r7lite
 PRODUCT_BRAND := OPPO
-PRODUCT_MODEL := R7plusf
+PRODUCT_MODEL := R7kf
 PRODUCT_MANUFACTURER := OPPO
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=OPPO/R7plusf/R7Plusm:5.1.1/LMY47V/1437558400:user/release-keys \
+    BUILD_FINGERPRINT=OPPO/R7kk/R7f:5.1.1/LMY47V/1437558400:user/release-keys \
     PRIVATE_BUILD_DESC="msm8916_64-user 5.1.1 LMY47V eng..20150807.023105 dev-keys" \
-    TARGET_DEVICE="R7plusf"
+    TARGET_DEVICE="R7kf"
